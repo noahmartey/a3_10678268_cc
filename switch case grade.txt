@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int grade;
+    cout<< "Input your exam score";
+    cin>> grade;
+
+    //checking exam score
+    switch(grade){
+      case: >=80 && <=100
+      cout<< "You had : A";
+      break;
+
+      case: >=75 && <=79
+      cout<< "You had : B+";
+      break;
+
+      case: >=70 && <=74
+      cout<< "You had : B";
+      break;
+
+
+     case: >=65 && <=69
+      cout<< "You had : C+";
+      break;
+
+
+     case: >=60 && <=64
+      cout<< "You had : C";
+      break;
+
+
+     case: >=55 && <=59
+      cout<< "You had : D+";
+      break;
+
+
+     case: >=50 && <=54
+      cout<< "You had : D";
+      break;
+
+     case: >=45 && <=49
+      cout<< "You had : E";
+      break;
+
+    case: >=0 && <=44
+      cout<< "You had : F";
+      break;
+    }
+
+  return 0;
+}
